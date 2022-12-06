@@ -52,7 +52,7 @@ function travis-branch-commit() {
     
     local remote=origin
     if [[ $GITHUB_TOKEN ]]; then
-        remote=https://$GITHUB_TOKEN@github.ibm.com/$TRAVIS_REPO_SLUG
+        remote=https://$GITHUB_TOKEN@github.com/$TRAVIS_REPO_SLUG
     fi
     if [[ $TRAVIS_BRANCH != main ]] && [[ $TRAVIS_BRANCH != develop ]]; then
         msg "not pushing updates to branch $TRAVIS_BRANCH"
