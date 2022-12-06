@@ -1,2 +1,2 @@
-# ocp4-catalogs
-OCP4 catalogs demo
+# ocp-oscal-catalogs
+OCP Oscal Catalogs
