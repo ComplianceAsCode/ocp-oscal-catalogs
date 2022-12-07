@@ -1,0 +1,24 @@
+name: Push to develop
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  auto-content-update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+        fetch-depth: 2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Trestle
+      run: bash scripts/automation/install_trestle.sh
+    - name: Automatically update content on push
+      run: bash scripts/automation/check_and_update_all.sh
+    - name: Push the changes
+      run: bash scripts/automation/push.sh
+  
