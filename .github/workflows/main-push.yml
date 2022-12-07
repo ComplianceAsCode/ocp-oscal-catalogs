@@ -1,0 +1,24 @@
+name: Push to main
+on:
+  push:
+    branches:
+      - main
+jobs:
+  auto-content-update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+        fetch-depth: 2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install Trestle
+      run: bash scripts/automation/install_trestle.sh
+    - name: Release
+      run: source scripts/automation/release.sh
+    - name: Push the changes
+      run: bash scripts/automation/push.sh
+  
