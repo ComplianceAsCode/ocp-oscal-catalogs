@@ -16,7 +16,7 @@
             "controls": [
               {
                 "id": "CIS-1.1.1",
-                "title": "1.1.1 Ensure that the API server pod specification file permissions are set to 644 or more restrictive "
+                "title": "1.1.1 Ensure that the API server pod specification file permissions are set to 644 or more restrictive"
               },
               {
                 "id": "CIS-1.1.2",
