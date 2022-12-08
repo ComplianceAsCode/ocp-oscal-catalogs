@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -22,7 +23,7 @@ jobs:
     - name: Push the changes
       run: bash scripts/automation/push.sh
   merge-main-to-develop:
-    name: Merge main -> develop
+    name: Merge main to develop
     runs-on: ubuntu-latest
     needs: release
     concurrency: 
