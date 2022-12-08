@@ -5,6 +5,7 @@ on:
       - develop
 jobs:
   auto-content-update:
+    name: Autoupdate content
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

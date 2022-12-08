@@ -35,10 +35,6 @@ function github-branch-commit() {
         err "failed to add modified files to git index"
         return 1
     fi
-    if ! git add data; then
-        err "failed to add modified files to git index"
-        return 1
-    fi
     if [ -z "$(git status --porcelain)" ]; then 
         msg "Nothing to commit" 
         return 0 
@@ -61,6 +57,7 @@ function github-branch-commit() {
     local remote=origin
     if [[ $GIT_TOKEN ]]; then
         remote=https://$GIT_TOKEN@github.com/ComplianceAsCode/ocp-oscal-catalogs
+    fi
     if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
         msg "not pushing updates to branch $GIT_BRANCH"
         return 0
