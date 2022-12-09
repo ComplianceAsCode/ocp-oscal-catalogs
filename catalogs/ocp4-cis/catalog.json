@@ -3,15 +3,17 @@
     "uuid": "fa3f44a8-25cd-4f6a-8175-7afe647df7ed",
     "metadata": {
       "title": "CIS Red Hat OpenShift Container Platform 4 Benchmark",
-      "last-modified": "2022-12-06T02:54:33+00:00",
-      "version": "1.2.0",
+      "last-modified": "2022-12-09T03:36:24.670818+00:00",
+      "version": "0.1.0",
       "oscal-version": "1.0.2"
     },
     "groups": [
       {
+        "id": "trestle_group_0000",
         "title": "1 Control Plane Components",
         "groups": [
           {
+            "id": "trestle_group_0001",
             "title": "1.1 Master Node Configuration Files",
             "controls": [
               {
@@ -101,6 +103,7 @@
             ]
           },
           {
+            "id": "trestle_group_0002",
             "title": "1.2 API Server",
             "controls": [
               {
@@ -246,6 +249,7 @@
             ]
           },
           {
+            "id": "trestle_group_0003",
             "title": "1.3 Controller Manager",
             "controls": [
               {
@@ -279,6 +283,7 @@
             ]
           },
           {
+            "id": "trestle_group_0004",
             "title": "1.4 Scheduler",
             "controls": [
               {
@@ -294,6 +299,7 @@
         ]
       },
       {
+        "id": "trestle_group_0005",
         "title": "2 etcd",
         "controls": [
           {
@@ -327,9 +333,11 @@
         ]
       },
       {
+        "id": "trestle_group_0006",
         "title": "3 Control Plane Configuration",
         "groups": [
           {
+            "id": "trestle_group_0007",
             "title": "3.1 Authentication and Authorization",
             "controls": [
               {
@@ -339,6 +347,7 @@
             ]
           },
           {
+            "id": "trestle_group_0008",
             "title": "3.2 Logging",
             "controls": [
               {
@@ -354,9 +363,11 @@
         ]
       },
       {
+        "id": "trestle_group_0009",
         "title": "4 Worker Nodes",
         "groups": [
           {
+            "id": "trestle_group_0010",
             "title": "4.1 Worker node configuration",
             "controls": [
               {
@@ -402,6 +413,7 @@
             ]
           },
           {
+            "id": "trestle_group_0011",
             "title": "4.2 Kubelet",
             "controls": [
               {
@@ -457,9 +469,11 @@
         ]
       },
       {
+        "id": "trestle_group_0012",
         "title": "5 Policies",
         "groups": [
           {
+            "id": "trestle_group_0013",
             "title": "5.1 RBAC and Service Accounts",
             "controls": [
               {
@@ -489,6 +503,7 @@
             ]
           },
           {
+            "id": "trestle_group_0014",
             "title": "5.2 Pod Security Policies / Security Context Constraints",
             "controls": [
               {
@@ -530,6 +545,7 @@
             ]
           },
           {
+            "id": "trestle_group_0015",
             "title": "5.3 Network Policies and CNI",
             "controls": [
               {
@@ -543,6 +559,7 @@
             ]
           },
           {
+            "id": "trestle_group_0016",
             "title": "5.4 Secrets Management",
             "controls": [
               {
@@ -556,6 +573,7 @@
             ]
           },
           {
+            "id": "trestle_group_0017",
             "title": "5.5 Extensible Admission Control",
             "controls": [
               {
@@ -565,6 +583,7 @@
             ]
           },
           {
+            "id": "trestle_group_0018",
             "title": "5.6 General Policies",
             "controls": [
               {
