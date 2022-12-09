@@ -20,8 +20,6 @@ jobs:
       run: bash scripts/automation/install_trestle.sh
     - name: Release
       run: source scripts/automation/release.sh
-    - name: Push the changes
-      run: bash scripts/automation/push.sh
   merge-main-to-develop:
     name: Merge main to develop
     runs-on: ubuntu-latest
