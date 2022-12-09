@@ -44,29 +44,6 @@ function github-branch-commit() {
         err "failed to commit updates"
         return 1
     fi
-    if [[ $GIT_BRANCH = main ]]; then
-        echo "Version tag: ${VERSION_TAG}" 
-        git push --delete origin "v${VERSION_TAG}"
-        git tag -d "v${VERSION_TAG}"
-        echo "Adding version tag v${VERSION_TAG} to branch $GIT_BRANCH"
-        if ! git tag "v${VERSION_TAG}" -m "Bump version"; then
-            err "failed to create git tag: v${VERSION_TAG}"
-            return 1
-        fi
-    fi
-    
-    local remote=origin
-    if [[ $GIT_TOKEN ]]; then
-        remote=https://$GIT_TOKEN@github.com/ComplianceAsCode/ocp-oscal-catalogs
-    fi
-    if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
-        msg "not pushing updates to branch $GIT_BRANCH"
-        return 0
-    fi
-    if ! git push --quiet --follow-tags "$remote" "$GIT_BRANCH" ; then
-        err "failed to push git changes"
-        return 1
-    fi
 }
 
 function msg() {
