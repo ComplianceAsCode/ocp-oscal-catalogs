@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: true
-        fetch-depth: 2
+        fetch-depth: 0
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
@@ -20,6 +20,8 @@ jobs:
       run: bash scripts/automation/install_trestle.sh
     - name: Release
       run: source scripts/automation/release.sh
+    - name: Push the changes
+      run: bash scripts/automation/push.sh
   merge-main-to-develop:
     name: Merge main to develop
     runs-on: ubuntu-latest

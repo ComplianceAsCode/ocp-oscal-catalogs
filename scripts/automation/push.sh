@@ -46,7 +46,10 @@ function github-branch-commit() {
     fi
     if [[ $GIT_BRANCH = main ]]; then
         echo "Version tag: ${VERSION_TAG}" 
-        git push --delete origin "v${VERSION_TAG}"
+        if ! git push --delete origin "v${VERSION_TAG}"; then
+            err "failed to delete git tag: v${VERSION_TAG}"
+            return 1
+        fi
         git tag -d "v${VERSION_TAG}"
         echo "Adding version tag v${VERSION_TAG} to branch $GIT_BRANCH"
         if ! git tag "v${VERSION_TAG}" -m "Bump version"; then
