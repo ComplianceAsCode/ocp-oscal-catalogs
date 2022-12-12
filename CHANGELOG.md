@@ -2,11 +2,6 @@
 
 <!--next-version-placeholder-->
 
-## v0.1.1 (2022-12-12)
-### Fix
-* Add downstream automation ([`2f51316`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/2f51316cbdf496bdebb4e78d7d3e33621c92af76))
-* Add downstream autoupdate ([`8c9bdc7`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/8c9bdc7af0ad9169b5ceb2d79731a4466eed5648))
-
 ## v0.1.0 (2022-12-11)
 ### Feature
 * Add versioning ([`e558c86`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/e558c8643d56b40667220cc848ed66b2a33fc745))
