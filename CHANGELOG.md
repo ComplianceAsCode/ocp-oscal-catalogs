@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-12-12)
+### Fix
+* Updated codeowners ([#8](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/8)) ([`b522a29`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/b522a2968fc4e740b09fb66d3c8c69e4c720a4de))
+
 ## v0.1.1 (2022-12-12)
 ### Fix
 * Change remote ([`967e5c8`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/967e5c850a4d1d4037eddb681327858ec8027651))
