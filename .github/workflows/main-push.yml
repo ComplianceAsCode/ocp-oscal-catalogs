@@ -22,6 +22,16 @@ jobs:
       run: source scripts/automation/release.sh
     - name: Push the changes
       run: bash scripts/automation/push.sh
+  downstream-repo-update:
+    name: Update downstream repositories
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+        fetch-depth: 0
+    - name: Update profiles
+      run: bash scripts/automation/update_profile.sh
   merge-main-to-develop:
     name: Merge main to develop
     runs-on: ubuntu-latest
