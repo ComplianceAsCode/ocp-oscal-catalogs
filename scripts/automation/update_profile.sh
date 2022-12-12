@@ -2,6 +2,8 @@
 
 export COMMIT_TITLE="chore: Catalogs automatic update."
 export COMMIT_BODY="Sync catalogs with ocp-oscal-catalogs repo"
+git config --global user.email "automation@example.com"
+git config --global user.name "Automation Bot" 
 git clone https://$GIT_TOKEN@github.com/ComplianceAsCode/ocp-oscal-profiles
 cd ocp-oscal-profiles
 git checkout -b "catalogs_autoupdate_$GITHUB_RUN_ID"
