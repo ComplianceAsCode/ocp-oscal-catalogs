@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2022-12-13)
+### Fix
+* Fix automatic downstream pr creation ([`dce9904`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/dce990437381f16ce365fa29631fec69abc24e0c))
+
 ## v0.1.2 (2022-12-12)
 ### Fix
 * Updated codeowners ([#8](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/8)) ([`b522a29`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/b522a2968fc4e740b09fb66d3c8c69e4c720a4de))
