@@ -2,6 +2,19 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.4 (2022-12-13)
+### Fix
+* Updated CIS-1.1.1 ([#13](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/13)) ([`21f2880`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/21f2880f8b94c5c131020fbfd27bcbb16dda62ac))
+* Add token to main flow ([`3e4ceae`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/3e4ceaef5189b63a4e356ad47fdfe826385247c5))
+* Add token to dev push ([`e173c9b`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/e173c9bcc2e61b9b5c186f3d77f43372e95ba6e4))
+* Change md ([`59dcf62`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/59dcf62f8b6e0afaf28609df3b48db7e87a4ce9b))
+* Change md ([`0f4e554`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/0f4e554a2813023cd280508ca232f66ba53afddc))
+* Fix username ([`199cbe9`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/199cbe922d019d27047d78edf403c4ce26ed52ae))
+* Update md ([`2cb6d0e`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/2cb6d0e3f372b84c61a207e0e003056e2d8a9c2b))
+* Updated CIS-1.1.1 ([#12](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/12)) ([`aa59fc4`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/aa59fc4b8770026701043697c64be9dbbbeafc6f))
+* Updated CIS-1.1.1 ([#10](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/10)) ([`b034482`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/b034482339981d26b49d6220120f7a446cf3e6e4))
+* Fix automatic pr titles ([`a029cb2`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/a029cb2d9604fef3acba37e99117aa312d36318e))
+
 ## v0.1.3 (2022-12-13)
 ### Fix
 * Fix automatic downstream pr creation ([`dce9904`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/dce990437381f16ce365fa29631fec69abc24e0c))
