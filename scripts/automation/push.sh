@@ -6,8 +6,8 @@ function github-branch-commit() {
     msg "Github branch: ($GIT_BRANCH)" 
     local head_ref branch_ref
     head_ref=$(git rev-parse HEAD)
-    git config --global user.email "enikonovad@gmail.com"
-    git config --global user.name "Ekaterina Nikonova" 
+    git config --global user.email "automation@example.com"
+    git config --global user.name "Automation Bot" 
     if [[ $? -ne 0 || ! $head_ref ]]; then
         err "failed to get HEAD reference"
         return 1
