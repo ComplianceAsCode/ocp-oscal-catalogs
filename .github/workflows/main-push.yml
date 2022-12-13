@@ -27,12 +27,21 @@ jobs:
     runs-on: ubuntu-latest
     needs: release
     steps:
-    - uses: actions/checkout@v2
+    - name: Clone branch
+      uses: actions/checkout@v2
       with:
-        submodules: true
+        fetch-depth: 0
+    - name: Clone downstream repo
+      uses: actions/checkout@v2
+      with:
+        repository: ComplianceAsCode/ocp-oscal-profiles
+        path: './ocp-oscal-profiles'
+        token: ${{ secrets.GIT_TOKEN }}
         fetch-depth: 0
     - name: Update profiles
       run: bash scripts/automation/update_profile.sh
+      env:
+        GH_TOKEN: ${{ secrets.GIT_TOKEN }}
   merge-main-to-develop:
     name: Merge main to develop
     runs-on: ubuntu-latest
