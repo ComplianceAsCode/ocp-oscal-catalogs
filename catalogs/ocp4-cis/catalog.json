@@ -3,7 +3,7 @@
     "uuid": "fa3f44a8-25cd-4f6a-8175-7afe647df7ed",
     "metadata": {
       "title": "CIS Red Hat OpenShift Container Platform 4 Benchmark",
-      "last-modified": "2022-12-17T05:23:51.947266+00:00",
+      "last-modified": "2022-12-17T05:36:39.500968+00:00",
       "version": "0.1.5",
       "oscal-version": "1.0.2"
     },
@@ -18,7 +18,14 @@
             "controls": [
               {
                 "id": "CIS-1.1.1",
-                "title": "1.1.1 Ensure that the API server pod specification file permissions are set to 644 or more restrictive"
+                "title": "1.1.1 Ensure that the API server pod specification file permissions are set to 644 or more restrictive",
+                "parts": [
+                  {
+                    "id": "CIS-1.1.1_smt",
+                    "name": "statement",
+                    "prose": "Test"
+                  }
+                ]
               },
               {
                 "id": "CIS-1.1.2",
