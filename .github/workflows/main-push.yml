@@ -32,6 +32,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
+        ref: main
         token: ${{ secrets.GIT_TOKEN }}
     - name: Clone downstream repo
       uses: actions/checkout@v2
