@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.10 (2023-01-11)
+### Fix
+* Updated CIS-1.1.1 ([#22](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/22)) ([`1f8a930`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/1f8a9309ffc7cc3da0f31ec3ddee58af0579d55b))
+
 ## v0.1.9 (2023-01-11)
 ### Fix
 * Remove test ([`8533dd1`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/8533dd1295de4dfcdbd48152f48ad5f28fe0d392))
