@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.9 (2023-01-11)
+### Fix
+* Remove test ([`8533dd1`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/8533dd1295de4dfcdbd48152f48ad5f28fe0d392))
+
 ## v0.1.8 (2023-01-11)
 ### Fix
 * Test release ([`24adaaa`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/24adaaa546cdf33e3b8d196bec5f71ad64050505))

@@ -3,8 +3,8 @@
     "uuid": "fa3f44a8-25cd-4f6a-8175-7afe647df7ed",
     "metadata": {
       "title": "CIS Red Hat OpenShift Container Platform 4 Benchmark",
-      "last-modified": "2023-01-11T05:58:04.380872+00:00",
-      "version": "0.1.8",
+      "last-modified": "2023-01-11T06:01:02.620844+00:00",
+      "version": "0.1.9",
       "oscal-version": "1.0.2"
     },
     "groups": [
