@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-02-15)
+### Feature
+* Catalog from CIS-b xlsx ([#25](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/25)) ([`0e3af0e`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/0e3af0eb0df0fd535b658225de34815064a0a5ce))
+
+### Fix
+* Updated CIS-1.1.1 ([#24](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/24)) ([`1c45a6d`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/1c45a6d621375b495b3aa199cc0d6b11f8d0a057))
+
 ## v0.1.10 (2023-01-11)
 ### Fix
 * Updated CIS-1.1.1 ([#22](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/issues/22)) ([`1f8a930`](https://github.com/ComplianceAsCode/ocp-oscal-catalogs/commit/1f8a9309ffc7cc3da0f31ec3ddee58af0579d55b))
