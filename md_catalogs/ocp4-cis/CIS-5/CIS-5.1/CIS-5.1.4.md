@@ -2,7 +2,9 @@
 
 ## Control Statement
 
-The ability to create pods in a namespace can provide a number of opportunities for privilege escalation, such as assigning privileged service accounts to these pods or mounting hostPaths with access to sensitive data (unless Pod Security Policies are implemented to restrict this access)    As such, access to create new pods should be restricted to the smallest possible group of users.
+The ability to create pods in a namespace can provide a number of opportunities for privilege escalation, such as assigning privileged service accounts to these pods or mounting hostPaths with access to sensitive data (unless Pod Security Policies are implemented to restrict this access)
+
+As such, access to create new pods should be restricted to the smallest possible group of users.
 
 ## Control rationale_statement
 
