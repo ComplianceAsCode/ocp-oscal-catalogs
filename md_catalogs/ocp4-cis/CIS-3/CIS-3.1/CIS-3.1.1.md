@@ -2,7 +2,9 @@
 
 ## Control Statement
 
-Kubernetes provides the option to use client certificates for user authentication. However as there is no way to revoke these certificates when a user leaves an organization or loses their credential, they are not suitable for this purpose.    It is not possible to fully disable client certificate use within a cluster as it is used for component to component authentication.
+Kubernetes provides the option to use client certificates for user authentication. However as there is no way to revoke these certificates when a user leaves an organization or loses their credential, they are not suitable for this purpose.
+
+It is not possible to fully disable client certificate use within a cluster as it is used for component to component authentication.
 
 ## Control rationale_statement
 
